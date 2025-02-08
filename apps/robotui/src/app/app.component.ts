@@ -2,6 +2,10 @@ import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NxWelcomeComponent } from './nx-welcome.component';
 
+import { } from '@robotui/components';
+
+import { } from '@robotui/datatable';
+
 @Component({
   imports: [NxWelcomeComponent, RouterModule],
   selector: 'app-root',
