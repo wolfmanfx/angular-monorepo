@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import { } from '@robotui/core';
 
 @Component({
   selector: 'lib-i18n',
-  imports: [CommonModule],
+  imports: [],
   template: `<p>I18n works!</p>`,
   styles: ``,
 })

@@ -10,15 +10,14 @@
       "executor": "@nx/angular:package",
       "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
       "options": {
-        "project": "packages/i18n/ng-package.json"
+        "project": "packages/i18n/ng-package.json",
+        "tsConfig": "packages/i18n/tsconfig.lib.json"
       },
       "configurations": {
         "production": {
           "tsConfig": "packages/i18n/tsconfig.lib.prod.json"
         },
-        "development": {
-          "tsConfig": "packages/i18n/tsconfig.lib.json"
-        }
+        "development": {}
       },
       "defaultConfiguration": "production"
     },
@@ -26,7 +25,8 @@
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "packages/i18n/jest.config.ts"
+        "jestConfig": "packages/i18n/jest.config.ts",
+        "tsConfig": "packages/i18n/tsconfig.spec.json"
       }
     },
     "lint": {

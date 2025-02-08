@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import { } from '@robotui/core';
 
 @Component({
   selector: 'lib-themes',
-  imports: [CommonModule],
+  imports: [],
   template: `<p>Themes works!</p>`,
   styles: ``,
 })

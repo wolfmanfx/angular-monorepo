@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 
 import { } from '@robotui/core';
 
@@ -9,7 +9,7 @@ import { } from '@robotui/i18n';
 
 @Component({
   selector: 'lib-components',
-  imports: [CommonModule],
+  imports: [],
   template: `<p>Components works!</p>`,
   styles: ``,
 })

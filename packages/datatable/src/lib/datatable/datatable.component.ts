@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 
 import { } from '@robotui/components';
 
@@ -11,7 +11,7 @@ import { } from '@robotui/i18n';
 
 @Component({
   selector: 'lib-datatable',
-  imports: [CommonModule],
+  imports: [],
   template: `<p>Datatable works!</p>`,
   styles: ``,
 })
