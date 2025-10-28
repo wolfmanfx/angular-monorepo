@@ -1,3 +1,12 @@
+## 4.1.1 (2025-10-28)
+
+### 🧱 Updated Dependencies
+
+- Updated components to 3.0.1
+- Updated themes to 3.0.1
+- Updated core to 3.0.1
+- Updated i18n to 3.0.1
+
 ## 4.1.0 (2025-10-28)
 
 ### 🚀 Features

@@ -1,6 +1,6 @@
 {
   "name": "@robotui/datatable",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "peerDependencies": {
     "@angular/common": "^19.1.0",
     "@angular/core": "^19.1.0"
