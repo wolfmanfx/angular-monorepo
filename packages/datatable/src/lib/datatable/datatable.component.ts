@@ -9,6 +9,7 @@ import { } from '@robotui/themes';
 
 import { } from '@robotui/i18n';
 
+// New Great Feature!
 @Component({
   selector: 'lib-datatable',
   imports: [],
