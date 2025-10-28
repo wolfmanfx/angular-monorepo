@@ -8,3 +8,5 @@ import { Component } from '@angular/core';
   styles: ``,
 })
 export class CoreComponent {}
+
+// dsddf
