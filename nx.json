@@ -134,6 +134,13 @@
     }
   },
   "release": {
-    "projectsRelationship": "independent"
+    "projectsRelationship": "independent",
+    "changelog": {
+      "projectChangelogs": true,
+      "workspaceChangelog": true
+    },
+    "version": {
+      "conventionalCommits": true
+    }
   }
 }
