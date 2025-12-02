@@ -1,3 +1,9 @@
+## 4.1.2 (2025-12-02)
+
+### 🧱 Updated Dependencies
+
+- Updated components to 3.1.0
+
 ## 4.1.1 (2025-10-28)
 
 ### 🧱 Updated Dependencies
